@@ -18,7 +18,7 @@ public class MongoImporter {
     public static String password = "password";//change accordingly
     public static String collection_prefix = "OffLS_";//you can add a collection prefix.
 
-    public static void main(final String[] args) throws Exception {
+    public static void main(final String[] args){
         //make sure csv files are using utf8 encoding
         final String[] extensions = {"csv"};
         final File folder = new File(folderName);
