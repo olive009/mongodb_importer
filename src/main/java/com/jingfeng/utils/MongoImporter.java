@@ -16,7 +16,7 @@ public class MongoImporter {
     public static String dbName = "jingfeng_db";
     public static String userName = "jingfeng";
     public static String password = "password";//change accordingly
-    public static String collection_prefix = "OffLS_";//you can add a collection prefix.
+    public static String collection_prefix = "offLS_";//you can add a collection prefix. the first letter should be lower case, eg: not "OffLS".
 
     public static void main(final String[] args){
         //make sure csv files are using utf8 encoding
